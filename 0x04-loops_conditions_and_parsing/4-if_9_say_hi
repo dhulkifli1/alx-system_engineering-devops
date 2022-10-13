@@ -7,7 +7,7 @@ while [ $i -lt 10 ]
 do
     if [ $i -ne "8" ]; then
         echo "Best School"
-    elif [ $i = "8" ]; then
+    else
         echo "Best School"
         echo "Hi"
     fi
