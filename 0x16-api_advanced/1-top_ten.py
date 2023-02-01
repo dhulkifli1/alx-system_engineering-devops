@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""1-top_ten.py - Query Reddit API & find Top10 subreddits hot posts"""
+'''A module containing functions for working with the Reddit API.
+'''
 import requests
 
 

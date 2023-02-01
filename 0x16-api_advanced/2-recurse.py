@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""2-recurse.py - Query Reddit API & find titles of all hot articles"""
+'''A module containing functions for working with the Reddit API.
+'''
 import requests
 
 

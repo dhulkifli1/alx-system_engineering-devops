@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""0-subs.py - Query Reddit API & find # subscribers"""
+'''A module containing functions for working with the Reddit API.
+'''
 import requests
 
 
