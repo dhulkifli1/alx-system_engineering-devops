@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Contains number_of_subscribers function"""
+"""
+Contains number_of_subscribers function
+"""
 import requests
 
 
