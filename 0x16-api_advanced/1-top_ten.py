@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-Contains a function top_ten
+Prints the titles of the first 10 hot posts for a subreddit
 """
+
 import requests
 
 
