@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""A module containing functions for working with the Reddit API.
-"""
+"""A module containing functions for working with the Reddit API."""
 import requests
 
 
@@ -12,7 +11,7 @@ def recurse(subreddit, hot_list=[], after=None):
     headers = {'User-Agent': 'My User Agent 1.0'}
     url = "https://www.reddit.com/r/{}/hot.json?limit=100".format(subreddit)
     if after:
-        url += f"&after={after}"
+        url += "&after={}".formart(after)
 
     response = requests.get(url, headers=headers)
 
