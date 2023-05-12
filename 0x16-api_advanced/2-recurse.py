@@ -10,7 +10,7 @@ def recurse(subreddit, hot_list=[], after=None):
     returns a list containing the titles of all hot articles for a subreddit
     """
     headers = {'User-Agent': 'My User Agent 1.0'}
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=100"
+    url = "https://www.reddit.com/r/{}/hot.json?limit=100".format(subreddit)
     if after:
         url += f"&after={after}"
 
