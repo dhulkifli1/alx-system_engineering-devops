@@ -5,7 +5,7 @@ import requests
 
 def top_ten(subreddit):
     """Prints the titles of the first 10 hot posts for a subreddit"""
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json"
+    url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     headers = {'User-Agent': 'my-custom-user-agent'}
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
